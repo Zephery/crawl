@@ -29,5 +29,4 @@ public class CommonThread {
         submiturl("https://www.cnblogs.com");
         es.shutdown();
     }
-
 }
