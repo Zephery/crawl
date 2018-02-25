@@ -25,8 +25,13 @@ public class CommonThread {
         es.submit(crawl);
     }
 
-    public static void main(String[] args) {
-        submiturl("https://www.cnblogs.com");
+
+    public static void run() {
+        submiturl("https://www.cnblogs.com/#p8");
         es.shutdown();
+    }
+
+    public static void main(String[] args) {
+
     }
 }
